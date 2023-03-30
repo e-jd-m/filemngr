@@ -1,8 +1,8 @@
-##Filemanager terminal app
+## Filemanager terminal app
 
 basic file manager app in C++
 
-####commands
+#### commands
 ```
  cd <path> 
  touch <list of files to create>
