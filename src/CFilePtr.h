@@ -1,7 +1,6 @@
 
 #pragma once
 
-///zdroj cviceni: https://gitlab.fit.cvut.cz/matouj10/pa2-2021-lab/blob/master/09/1-rtti-and-polymorphic-ctors/CItemPtr.h
 
 #include "CFileEntity.h"
 #include <memory>
