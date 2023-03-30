@@ -1,0 +1,7 @@
+digraph "CFileEntity"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CFileEntity\n|# path\l# PRINT_WIDTH\l|+ CFileEntity()\l+ ~CFileEntity()\l+ getPath()\l+ clone()\l+ getName()\l+ sortingRank()\l+ lastWriteTime()\l+ getPrintWidth()\l# print()\l# getFormatedName()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class to represent filesystem entity (eg. file, folder, link...)"];
+}

@@ -1,0 +1,25 @@
+digraph "CCommandManager::getFileList"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="CCommandManager::getFileList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CCommandManager::operation\lCopyFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCCommandManager.html#a502980f031d39bafbd5d181c250025c4",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CCommandManager::execute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCCommandManager.html#aff74b25c952d1029127f32a6bda6105c",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="UserInterface::start",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUserInterface.html#a79350878c72585ae34e4321613ed2c1a",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CCommandManager::operation\lCreateLinkFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCCommandManager.html#a5d7edeac2dd9314af9f24a0d2aebbd4e",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CCommandManager::operation\lDeleteFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCCommandManager.html#a769d4afe3e104c2b7ea204e3f80798b5",tooltip=" "];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CCommandManager::operation\lMoveFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCCommandManager.html#adf247c4ab0a913b174094c8424cee5ae",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,9 @@
+digraph "CCommandManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CCommandManager\n||+ CCommandManager()\l+ execute()\l+ printHelp()\l- splitCommand()\l- createCommand()\l- operationCreateFileFactory()\l- operationCreateFolderFactory()\l- operationDeleteFactory()\l- operationChangeDirFactory()\l- operationCopyFactory()\l- operationMoveFactory()\l- operationCreateLinkFactory()\l- getFileList()\l- validQuotes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class to handle command inputs and transform them to operation objects."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -manager" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{CFileManager\n|- currentPath\l- files\l|+ CFileManager()\l+ changeDirectory()\l+ getCurrentPath()\l+ executeOperation()\l+ listCurrentFiles()\l+ listCurrentFiles()\l- sortFiles()\l- refreshFiles()\l- normalizePath()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCFileManager.html",tooltip="Class to handle file manager operations (eg. hold current path, execute operations)"];
+}

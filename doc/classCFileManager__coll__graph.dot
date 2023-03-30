@@ -1,0 +1,7 @@
+digraph "CFileManager"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CFileManager\n|- currentPath\l- files\l|+ CFileManager()\l+ changeDirectory()\l+ getCurrentPath()\l+ executeOperation()\l+ listCurrentFiles()\l+ listCurrentFiles()\l- sortFiles()\l- refreshFiles()\l- normalizePath()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Class to handle file manager operations (eg. hold current path, execute operations)"];
+}
