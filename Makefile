@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -Wall -pedantic -g -std=c++17
 LDFLAGS = -lstdc++fs
 
-TARGET = zalouada
+TARGET = flmngr
 
 SOURCE_DIR = src
 BUILD_DIR = build
